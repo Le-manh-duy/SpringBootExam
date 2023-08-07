@@ -23,13 +23,11 @@
             </tr>
             </thead>
             <tr th:each="employee: ${employees}">
-                <td th:text="${employee.name}"></td>/ 
+                <td th:text="${employee.name}"></td>
                 <td th:text="${employee.wage}"></td>
             </tr>
         </table>
     </div>
-
-
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.12.1/datatables.min.js"></script>
